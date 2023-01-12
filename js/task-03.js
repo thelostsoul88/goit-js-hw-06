@@ -28,12 +28,12 @@ const imgEl = images.reduce(
 );
 addUl.insertAdjacentHTML("beforeend", imgEl);
 // -----------------------------FOR-------------------------
-// const liElem = document.createElement("li");
+// const liEl = document.createElement("li");
 // for (const img of images) {
-//   const imgElem = document.createElement("img");
-//   imgElem.src = img.url;
-//   imgElem.alt = img.alt;
-//   imgElem.classList.add("gallery__img");
-//   liElem.appendChild(imgElem);
+//   const imgEl = document.createElement("img");
+//   imgEl.src = img.url;
+//   imgEl.src = img.url;
+//   imgEl.classList.add("gallery__img");
+//   liEl.appendChild(imgEl);
 // }
-// addUl.appendChild(liElem);
+// addUl.append(liEl);
