@@ -9,7 +9,7 @@ const counterValue = {
 };
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 const incrementBtn = document.querySelector('[data-action="increment"]');
-const valueEl = document.querySelector("#value");
+const valueEl = document.getElementById("value");
 // -------------------------- function out ----------------------
 const decrementClick = () => {
   counterValue.decrement();
