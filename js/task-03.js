@@ -32,7 +32,7 @@ addUl.insertAdjacentHTML("beforeend", imgEl);
 // for (const img of images) {
 //   const imgEl = document.createElement("img");
 //   imgEl.src = img.url;
-//   imgEl.src = img.url;
+//   imgEl.alt = img.alt;
 //   imgEl.classList.add("gallery__img");
 //   liEl.appendChild(imgEl);
 // }
