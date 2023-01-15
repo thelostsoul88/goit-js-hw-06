@@ -7,5 +7,5 @@ const txt = document.getElementById("text");
 // ------------------- function out ---------------
 input.addEventListener("input", handle);
 function handle(e) {
-  txt.style.fontSize = e.currentTarget.value + "px";
+  txt.style.fontSize = `${e.currentTarget.value}px`;
 }
